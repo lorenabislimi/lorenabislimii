@@ -1,0 +1,65 @@
+.terms-section {
+    padding: 80px 10%;
+    background-color: #fff;
+    color: #333;
+    line-height: 1.8;
+}
+
+.terms-header {
+    text-align: center;
+    margin-bottom: 50px;
+    border-bottom: 2px solid #f0f0f0;
+    padding-bottom: 20px;
+}
+
+.terms-header p {
+    color: #888;
+    font-style: italic;
+}
+
+.terms-content {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+.terms-block {
+    margin-bottom: 40px;
+}
+
+.terms-block h3 {
+    color: #007bff; /* Germova Brand Blue */
+    font-size: 1.3rem;
+    margin-bottom: 15px;
+    border-left: 4px solid #007bff;
+    padding-left: 15px;
+}
+
+.terms-block p {
+    color: #555;
+    font-size: 1rem;
+}
+
+.terms-footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background: #f8f9fa;
+    border-radius: 8px;
+}
+
+.terms-footer a {
+    color: #007bff;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.terms-footer a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustment */
+@media (max-width: 768px) {
+    .terms-section {
+        padding: 60px 5%;
+    }
+}

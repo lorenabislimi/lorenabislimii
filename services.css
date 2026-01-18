@@ -1,0 +1,85 @@
+.expertise {
+    padding: 80px 5%;
+    background-color: #fcfcfc;
+}
+
+.expertise-container {
+    display: flex;
+    align-items: center; /* Centers items vertically */
+    gap: 50px;           /* Space between image and text */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.expertise-image {
+    flex: 1;             /* Takes up 50% of the width */
+    position: relative;
+}
+
+.expertise-image img {
+    width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+}
+
+.image-label {
+    position: absolute;
+    bottom: 20px;
+    left: 0;
+    background: #cc0000; /* Red label from your image */
+    color: white;
+    padding: 5px 15px;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.expertise-content {
+    flex: 1;             /* Takes up the other 50% */
+}
+
+.sub-heading {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 0.9rem;
+    letter-spacing: 1px;
+}
+
+.expertise-content h2 {
+    font-size: 2.5rem;
+    margin: 15px 0;
+    color: #222;
+}
+
+.expertise-list {
+    margin-top: 30px;
+}
+
+.list-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.check {
+    color: #007bff;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.list-item h4 {
+    margin: 0 0 5px 0;
+    color: #333;
+}
+
+.list-item p {
+    margin: 0;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+/* Responsive: Stacks on top of each other on mobile */
+@media (max-width: 992px) {
+    .expertise-container {
+        flex-direction: column;
+    }
+}
